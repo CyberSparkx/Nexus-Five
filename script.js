@@ -51,6 +51,21 @@ Shery.mouseFollower({
       scrub: true,
     }
   });
+  gsap.from(".welcome", {
+   opacity:0,
+   duration:2,
+   y:-100,
+
+  });
+  
+  gsap.from(".yoyo", {
+   opacity:0,
+   duration:2,
+   x:-300,
+   yoyo:true,
+   repeat:-1,
+
+  });
 
   gsap.to(".images", {
   scale: 2,
