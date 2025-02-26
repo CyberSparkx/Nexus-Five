@@ -14,7 +14,7 @@ Shery.mouseFollower({
     });
     
       Shery.imageEffect(".images", {
-        style: 5,
+        style: 4,
         slideStyle: (setScroll) => {
           window.addEventListener("scroll", () => {
             setScroll(window.scrollY / innerHeight); //Updating the scroll
